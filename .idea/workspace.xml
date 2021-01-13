@@ -20,72 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bd32809-9197-4443-a9c5-180dfcfbd82c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/roles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_01_15_105324_create_roles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_01_15_114412_create_role_user_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_01_26_115212_create_permissions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_01_26_115523_create_permission_role_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_02_09_132439_create_permission_user_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ConnectRelationshipsSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/PermissionsTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/RolesTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravelroles/de/laravelroles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravelroles/en/laravelroles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravelroles/fr/laravelroles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/cards/permissions-card.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/cards/roles-card.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/crud/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/crud/permissions/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/crud/permissions/deleted/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/crud/permissions/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/crud/permissions/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/crud/roles/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/crud/roles/deleted/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/crud/roles/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/crud/roles/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/create-permission-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/create-role-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/delete-sm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/destroy-all-permissions.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/destroy-all-roles.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/destroy-sm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/edit-permission-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/edit-role-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/partials/permission-desc-input.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/partials/permission-name-input.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/partials/permission-slug-input.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/partials/permissions-model-select.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/partials/role-desc-input.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/partials/role-level-input.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/partials/role-name-input.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/partials/role-permissions-select.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/partials/role-slug-input.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/permission-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/restore-all-permissions.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/restore-all-roles.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/restore-item.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/forms/role-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/modals/confirm-modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/partials/bs-visibility-css.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/partials/flash-messages.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/partials/form-status.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/partials/styles.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/scripts/confirm-modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/scripts/datatables.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/scripts/form-inputs-helpers.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/scripts/selectize.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/scripts/selectizePermission.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/scripts/tooltips.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/tables/permission-items-table.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/tables/permissions-table.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/tables/role-items-table.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelroles/laravelroles/tables/roles-table.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +175,7 @@
       <updated>1610477831511</updated>
       <workItem from="1610477835250" duration="38000" />
       <workItem from="1610477881072" duration="5703000" />
-      <workItem from="1610484944266" duration="722000" />
+      <workItem from="1610484944266" duration="2694000" />
     </task>
     <servers />
   </component>
@@ -277,17 +214,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="772" y="156" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610484654607" />
-    <state x="668" y="95" width="583" height="849" key="find.popup" timestamp="1610484545057">
+    <state x="668" y="95" width="583" height="849" key="find.popup" timestamp="1610486772486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="95" width="583" height="849" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610484545057" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1610485596291">
+    <state x="668" y="95" width="583" height="849" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610486772486" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1610485951441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610485596291" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610484650521">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610485951441" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610486746625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610484650521" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610486746625" />
   </component>
 </project>
